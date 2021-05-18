@@ -1,5 +1,4 @@
-#!/bin/python3
-
+#https://www.hackerrank.com/challenges/py-if-else 
 import math
 import os
 import random
