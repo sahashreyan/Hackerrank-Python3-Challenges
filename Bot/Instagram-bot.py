@@ -1,7 +1,7 @@
 from instapy import InstaPy
 
-session = InstaPy(username = "your username", password = "your password")
-#Replace your username with your actual username and the same with your password
+session = InstaPy(username = "your_username", password = "your_password")
+#Replace your_username with your actual username and the same with your password
 session.login()
 
 session.set_relationship_bounds(enabled = True, max_followers = 200)
