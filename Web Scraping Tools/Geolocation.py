@@ -16,7 +16,7 @@ def get_location(address):
         return app.geocode(address).raw
     except:
         return get_location(address)
-    
+#Enter the address to search
 address = "Makai Road, Masaki, Dar es Salaam, Tanzania"
 location = get_location(address)
 latitude = location["lat"]
