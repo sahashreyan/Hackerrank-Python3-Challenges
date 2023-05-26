@@ -105,7 +105,7 @@ class Cartoon:
         t.end_fill()
 
         #
-        self.meme(17, 54)
+        self.meme(18, 54)
         t.fillcolor('#DD716F')
         t.begin_fill()
         t.seth(145)
